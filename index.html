@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia rich webpage</title>
+    </head>
+    <body>
+        <h1>Advanced HTML Elements and Form</h1>
+        <h3>Ordered list</h3>
+        <ol>
+            <li>software enginering</li>
+            <li>python</li>
+            <li>database</li>
+            <li>web development</li>
+            <li>startup building</li>
+        </ol>
+        <h3>HTML Image</h3>
+        <img src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600" alt="a red audi" width="250"height="250">
+        <h3>HTML Table</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>address</th>
+                    <th>mobile</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>emmanuel</td>
+                <td>nairobi22</td>
+                <td>0746531499</td>
+                <td>emmanuel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>ouma</td>
+                <td>nairobi22</td>
+                <td>0746531000</td>
+                <td>ouma@gmail.com</td>
+            </tr>
+            <tr>
+                <td>nuel</td>
+                <td>nairobi22</td>
+                <td>0700031499</td>
+                <td>nuel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>alice</td>
+                <td>nairobi22</td>
+                <td>074600099</td>
+                <td>alice@gmail.com</td>
+            </tr>
+            <tr>
+                <td>jacky</td>
+                <td>nairobi22</td>
+                <td>070000099</td>
+                <td>jacky@gmail.com</td>
+            </tr>
+        </table>
+        <h3>HTML Form</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="text" id="password"name ="password"required>
+            <br><br>
+            <label for="date field">Date field:</label>
+            <input type="text" id="date field"name ="date field"required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender"name="gender"value="female">Female
+            <input type="radio" id="gender"name="gender"value="male">Male
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="hobbies"name="hobbies"value="sport">Sport
+            <input type="checkbox" id="hobbies"name="hobbies"value="art">Art
+            <input type="checkbox" id="hobbies"name="hobbies"value="music">Music
+            <input type="checkbox" id="hobbies"name="hobbies"value="movie">Movie
+            <br><br>
+            <label for="country">Country:</label>
+            <select for="country"value="country">
+                <option>---select country---</option>
+                <option value="kenya">Kenya</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="burundi">Burundi</option>
+                <option value="usa">USA</option>
+            </select>
+            <br><br>
+            <label for="description">Description</label>
+            <textarea type="describe yourself">describe</textarea>
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="cancel">
+        </form>
+        <h3>HTML Audio</h3>
+        <audio controls>
+            <source src="https://incompetech.com/music/royalty-free/mp3-royaltyfree/That%20Zen%20Moment.mp3" type="audio/mp3">
+        </audio>
+       <h3>HTML Video</h3>
+       <iframe width="640" height="360" 
+  src="https://www.youtube.com/embed/NNxSK8ABSzY" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+</body>
+</html>
